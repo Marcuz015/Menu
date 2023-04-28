@@ -6,10 +6,9 @@ export default function Home() {
     <View style={styles.container}>
       <ImageBackground
       style={styles.teste1}
-      source={{uri:"https://cdn1.epicgames.com/spt-assets/764b2d57552c436590f50318bd7587f9/download-bloons-td-6-offer-100fo.jpg"}}
-      >
-        
-      <Text style={styles.titulo}></Text>
+      source={{uri:"https://cdn1.epicgames.com/spt-assets/764b2d57552c436590f50318bd7587f9/download-bloons-td-6-offer-100fo.jpg"}}>
+ 
+      <Text style={styles.titulo}>bloons td6</Text>
       </ImageBackground>
       <StatusBar style="auto" />
     </View>
@@ -18,14 +17,16 @@ export default function Home() {
 }
 
 
-
-
-
 const styles = StyleSheet.create({
   titulo:{
     color: "#FFF",
-    fontSize: 20,
+    fontSize: 35,
     fontWeight: "bold",
+    width: 200,
+    height: 70,
+    backgroundColor: "#000000",
+    borderRadius: 10,
+    alignItems: "center"
   },
   container: {
     flex: 1,
